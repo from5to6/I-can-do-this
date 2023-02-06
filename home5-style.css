@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* vh, vw 사용 하지 않고 다시 만들어 보기 */
+#wrap {
+  height: auto;
+  width: 100%;
+  border: 2px solid gray;
+  color: white;
+  font-size: large;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.header {
+  background-color: skyblue;
+  height: 20vh;
+}
+.wrap__center {
+  height: 600px;
+  width: 1000px;
+  margin: auto;
+}
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.center__top {
+  height: 60%;
+  width: 100%;
+  overflow: hidden;
+}
+.center__bottom {
+  height: 40%;
+  width: 100%;
+  overflow: hidden;
+}
+.main {
+  background-color: lightgreen;
+  height: 98%;
+  width: 68%;
+  float: left;
+  margin: 1%;
+}
+.sidebar {
+  background-color: purple;
+  height: 98%;
+  width: 28%;
+  float: right;
+  margin: 1%;
+}
+.twin {
+  background-color: orange;
+  height: 98%;
+  width: 48%;
+  float: left;
+  margin: 1%;
+}
+.footer {
+  background-color: navy;
+  height: 20vh;
+}

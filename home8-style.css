@@ -1,0 +1,40 @@
+#pagewrap {
+  width: 570px;
+  padding: 10px;
+}
+
+.top {
+  margin-bottom: 15px;
+}
+.series {
+  border: 2px solid gray;
+  border-radius: 11px;
+  font-size: 11px;
+  padding: 3px 6px 3px 6px;
+  margin: 5px;
+  color: gray;
+}
+.main-title {
+  font-size: xx-large;
+  margin-bottom: 15px;
+}
+.writer {
+  height: 60px;
+  width: auto;
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.profile {
+  width: 60px;
+  height: 60px;
+  float: left;
+}
+.nicknamedate {
+  color: gray;
+  margin: 5px;
+}
+
+img {
+  width: 100%;
+}

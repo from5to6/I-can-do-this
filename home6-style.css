@@ -1,0 +1,52 @@
+.top {
+  height: 100px;
+  width: auto;
+  border: 10px solid white;
+}
+.header {
+  background-color: tomato;
+  padding-left: 50px;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: auto;
+}
+.header__menu {
+  padding: 10px;
+}
+.center {
+  height: 600px;
+  width: auto;
+  overflow: hidden;
+}
+.section {
+  background-color: tomato;
+  border: 10px solid white;
+  height: 100%;
+  width: 65%;
+  overflow: hidden;
+  float: left;
+  padding-left: 5px;
+}
+.article {
+  border: 1px solid rgb(205, 235, 142);
+  background-color: rgb(205, 235, 142);
+  height: 27%;
+  width: auto;
+  margin: 0 5px 5px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.side {
+  background-color: tomato;
+  border: 10px solid white;
+  height: 100%;
+  width: 30%;
+  float: right;
+}
+.bottom {
+  background-color: tomato;
+  border: 10px solid white;
+  padding: 5px;
+}

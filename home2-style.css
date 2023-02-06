@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+}
+.top {
+  height: 50vh;
+  width: auto;
+}
+.bottom {
+  height: 50vh;
+  width: auto;
+}
+.name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: xx-large;
+}
+.red {
+  background-color: red;
+  height: 100%;
+  width: 70%;
+  float: left;
+}
+.yellow {
+  background-color: yellow;
+  height: 100%;
+  width: 30%;
+  float: right;
+  display: flex;
+  flex-direction: column;
+}
+.skyblue {
+  background-color: skyblue;
+  height: 50%;
+  width: 70%;
+}
+.green {
+  background-color: green;
+  height: 100%;
+  width: 100%;
+}

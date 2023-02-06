@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+}
+.box {
+  border-radius: 40px;
+  margin: 10px 0px;
+}
+.red {
+  background-color: red;
+  height: 40vh;
+  width: 100%;
+}
+.blue {
+  background-color: blue;
+  height: 101.31vh;
+  width: 50vw;
+  float: left;
+  margin: 10px 10px -10px 0px;
+}
+.green {
+  background-color: green;
+  height: 40vh;
+  width: 47vw;
+  float: right;
+  margin: 10px 10px;
+}
+.purple {
+  background-color: purple;
+  height: 60vh;
+  width: 22.8vw;
+  float: right;
+  margin: 0px 10px;
+}

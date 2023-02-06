@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+}
+.top {
+  height: 110px;
+  width: 100%;
+}
+.yellow {
+  background-color: yellow;
+  height: 100%;
+}
+.left {
+  height: 85vh;
+  width: 60vw;
+  float: left;
+}
+.green {
+  background-color: green;
+  height: 100%;
+}
+.right {
+  height: 85vh;
+  width: 40vw;
+  float: right;
+}
+.right__red {
+  background-color: red;
+  height: 50vh;
+  width: 40vw;
+}
+.right__darkred {
+  background-color: darkred;
+  height: 35vh;
+  width: 40vw;
+}
+.name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: xx-large;
+}

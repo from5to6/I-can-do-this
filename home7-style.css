@@ -1,0 +1,33 @@
+#wrap {
+  display: flex;
+}
+img {
+  border: 1px solid rgb(128, 128, 128, 1);
+  width: 250px;
+}
+.thumbnail {
+  margin-right: 10px;
+}
+.news-wrap {
+  width: 580px;
+}
+.news {
+  margin-bottom: 10px;
+}
+.head {
+  margin-top: 10px;
+  color: green;
+  font-weight: bold;
+}
+.title {
+  font-weight: bold;
+}
+
+.main {
+  font-weight: 300;
+}
+
+.bottom {
+  color: gray;
+  font-weight: 100;
+}
