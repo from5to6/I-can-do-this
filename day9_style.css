@@ -1,0 +1,72 @@
+html {
+  background-color: rgb(107, 188, 189);
+}
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+section {
+  margin: 50px;
+}
+article {
+  display: flex;
+  margin: 20px;
+}
+.rotate {
+  animation: rotation 1s infinite;
+}
+.circle {
+  background-color: white;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin: 20px;
+}
+.rectangle {
+  background-color: white;
+  width: 20px;
+  height: 80px;
+  margin: 5px;
+  animation: wave 1.2s ease-in-out infinite;
+}
+.first {
+  animation-delay: 0.1s;
+}
+.second {
+  animation-delay: 0.2s;
+}
+.third {
+  animation-delay: 0.3s;
+}
+.fourth {
+  animation-delay: 0.4s;
+}
+.fivth {
+  animation-delay: 0.5s;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(180deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes wave {
+  0% {
+    transform: scaleY(1);
+  }
+  20% {
+    transform: scaleY(2);
+  }
+  60% {
+    transform: scaleY(1);
+  }
+  100% {
+    transform: scaleY(1);
+  }
+}
